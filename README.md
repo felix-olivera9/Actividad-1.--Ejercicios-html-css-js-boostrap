@@ -9,4 +9,4 @@ Este repositorio contiene una serie de ejercicios prácticos desarrollados para 
 
 ## Enlace a la Página Publicada
 Puedes visualizar los ejercicios funcionando en línea a través de GitHub Pages:
-[Enlace a GitHub Pages](#) *(reemplaza este texto con tu link generado)*
+[Enlace a GitHub Pages](#) *https://felix-olivera9.github.io/Actividad-1.--Ejercicios-html-css-js-boostrap/*
