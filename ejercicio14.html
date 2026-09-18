@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14 -Arreglos</title>
+    <link rel="stylesheet" href="css/ejercicio14.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Análisis de Números</h1>
+        <p class="subtitulo">Ingresa números separados por comas</p>
+
+        <div class="grupo-formulario">
+            <label for="numeros">Números (ejemplo: 10, 20, 30, 40):</label>
+            <input type="text" id="numeros" placeholder="Ej: 10, 20, 30, 40, 50">
+        </div>
+
+        <button type="button" id="btn-calcular">Calcular</button>
+
+        <div class="grupo-formulario">
+            <label for="mayor">Número Mayor:</label>
+            <input type="text" id="mayor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="menor">Número Menor:</label>
+            <input type="text" id="menor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="promedio">Promedio:</label>
+            <input type="text" id="promedio" readonly placeholder="Resultado">
+        </div>
+
+        <p id="error-msg" class="mensaje-error"></p>
+    </div>
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>

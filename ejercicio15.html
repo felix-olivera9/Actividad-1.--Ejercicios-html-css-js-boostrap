@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15 -Sistema de estudiantes</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Control de Calificaciones</h1>
+        <p class="subtitulo">Registra estudiantes y calcula estadísticas</p>
+
+        <div class="grupo-formulario">
+            <label for="nombre">Nombre del Estudiante:</label>
+            <input type="text" id="nombre" placeholder="Ej: Juan">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="calificacion">Calificación:</label>
+            <input type="text" id="calificacion" placeholder="Ej: 85">
+        </div>
+
+        <div class="botones-fila">
+            <button type="button" id="btn-agregar">Agregar estudiante</button>
+            <button type="button" id="btn-calcular" class="btn-secundario">Calcular</button>
+        </div>
+
+        <!-- Lista de estudiantes agregados -->
+        <div class="grupo-formulario">
+            <label>Estudiantes Registrados:</label>
+            <ul id="lista-estudiantes" class="lista-registrados">
+                <li class="vacio">No hay estudiantes agregados aún.</li>
+            </ul>
+        </div>
+
+        <hr class="separador">
+
+        <div class="grupo-formulario">
+            <label for="promedio">Calificación Promedio:</label>
+            <input type="text" id="promedio" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="mejor-estudiante">Estudiante con calificación más alta:</label>
+            <input type="text" id="mejor-estudiante" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="peor-estudiante">Estudiante con calificación más baja:</label>
+            <input type="text" id="peor-estudiante" readonly placeholder="Resultado">
+        </div>
+
+        <p id="error-msg" class="mensaje-error"></p>
+    </div>
+    <script src="js/ejercicio15.js"></script>
+</body>
+</html>

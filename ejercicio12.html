@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12 -Conversor de modena</title>
+    <link rel="stylesheet" href="css/ejercicio12.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Conversor MXN a USD</h1>
+
+        <div class="grupo-formulario">
+            <label for="pesos">Cantidad en Pesos MXN:</label>
+            <input type="text" id="pesos" placeholder="Ej: 500">
+        </div>
+
+        <button type="button" id="btn-convertir">Convertir</button>
+
+        <div class="grupo-formulario">
+            <label for="dolares">Resultado en Dólares USD:</label>
+            <input type="text" id="dolares" readonly placeholder="Resultado">
+        </div>
+
+        <p id="error-msg" class="mensaje-error"></p>
+    </div>
+    <script src="js/ejercicio12.js"></script>
+</body>
+</html>

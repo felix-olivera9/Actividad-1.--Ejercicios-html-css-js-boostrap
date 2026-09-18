@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13 -Validacion para votar</title>
+    <link rel="stylesheet" href="css/ejercicio13.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Verificador de Edad para Votar</h1>
+
+        <div class="grupo-formulario">
+            <label for="edad">Ingresa tu edad:</label>
+            <input type="text" id="edad" placeholder="Ej: 20">
+        </div>
+
+        <button type="button" id="btn-verificar">Verificar</button>
+
+        <div class="grupo-formulario">
+            <label for="resultado">Resultado:</label>
+            <input type="text" id="resultado" readonly placeholder="Estado de votación">
+        </div>
+
+        <p id="error-msg" class="mensaje-error"></p>
+    </div>
+    <script src="js/ejercicio13.js"></script>
+</body>
+</html>
